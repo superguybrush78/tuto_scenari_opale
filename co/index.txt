@@ -1,0 +1,738 @@
+{"o":"co/connexionclient2.html","A":"co/qreponsenumerique.html","a":"co/publi_opale39.html","e":"co/instal_model_opale.html","k":"co/exo_auto_evalue.html","u":"co/qcm.html","l":"co/qcu.html","d":"co/desktopouclient.html","m":"co/about.html","n":"co/connectCHROME.html","t":"co/param_support_web.html","B":"co/listeexercice.html","y":"co/texteatrou.html","i":"co/section.html","c":"co/install.html","r":"co/creationmodule.html","g":"co/demarer_avec_opale.html","q":"co/installmodel.html","s":"co/moduleopedition.html","w":"co/appariement.html","x":"co/ordonnancement.html","h":"co/ateliercreation.html","v":"co/categorisation.html","z":"co/qreponsecourte.html","f":"co/definition_opale.html","b":"co/opale39.html","p":"co/assets.html","j":"co/Les_Supports.html"}
+["fullText"]
+{"wordPattern":"[^\\u0000-/:-@\\[-`{-\\u00A0]+(?:[-][^\\u0000-/:-@\\[-`{-\\u00A0]+)?|\\d+(?:[,.]\\d+)?","filters":[{"type":"excludeShortWords","forWords":"\\d+","min":1},{"type":"excludeShortWords","forWords":"\\D+","min":3},{"type":"cutLongWords","max":20},{"type":"lowerCase"},{"type":"ignoreWords","words":{"notre":1,"vont":1,"fait":1,"avoir":1,"mon":1,"être":1,"des":1,"mot":1,"sont":1,"les":1,"avant":1,"vous":1,"peu":1,"il":1,"tes":1,"dans":1,"nous":1,"tandis":1,"au":1,"tellement":1,"moins":1,"force":1,"je":1,"même":1,"droite":1,"dos":1,"sien":1,"parole":1,"sa":1,"elle":1,"ces":1,"sur":1,"ton":1,"si":1,"ça":1,"quand":1,"encore":1,"mine":1,"peut":1,"ses":1,"dedans":1,"ce":1,"ci":1,"quelles":1,"quels":1,"haut":1,"où":1,"alors":1,"tout":1,"ta":1,"tous":1,"chaque":1,"la":1,"état":1,"cela":1,"le":1,"sujet":1,"autre":1,"comme":1,"font":1,"tu":1,"fois":1,"est":1,"nouveaux":1,"mais":1,"ici":1,"tels":1,"nommés":1,"du":1,"maintenant":1,"son":1,"ma":1,"depuis":1,"soyez":1,"parce":1,"été":1,"par":1,"seulement":1,"voie":1,"pas":1,"pourquoi":1,"sans":1,"essai":1,"en":1,"ceux":1,"donc":1,"et":1,"début":1,"eu":1,"ils":1,"voient":1,"hors":1,"ni":1,"étions":1,"avec":1,"très":1,"vu":1,"bon":1,"que":1,"faites":1,"qui":1,"plupart":1,"deux":1,"aucuns":1,"sous":1,"elles":1,"devrait":1,"car":1,"aussi":1,"doit":1,"mes":1,"leur":1,"valeur":1,"ou":1,"pour":1,"trop":1,"pièce":1,"dehors":1,"là":1,"juste":1,"quelle":1,"comment":1,"personnes":1,"votre":1,"quel":1,"étaient":1}},{"type":"filterAccentedLatinLetters"}]}
+references	a.1	b.1	c.1	d.1	e.1	f.1	g.1	h.1	i.1	j.1	k.1	l.1	m.1	n.1	o.1	p.1	q.1	r.1	s.5	t.2	u.1	v.1	w.1	x.1	y.1	z.1	A.1	B.1
+telecharger	d.1	p.1	q.3
+faire	n.2	s.1
+categorisation	k.1	v.1
+editeur	b.1	m.1
+sorte	f.1
+xml	r.1	s.1
+scorm	b.1
+tel	s.1
+utilise	b.1	f.1	s.1	u.1
+necessaires	c.1	p.1
+produit	t.1
+passe	n.1	o.2
+version	m.1	q.2	s.3	t.4
+detaillerons	s.1
+click	s.2
+0	d.1	m.1	n.1	o.1	s.1	t.1
+1	l.3	m.1	s.3	t.4	u.4	v.3	w.2	x.2	y.2	z.2	A.2	B.2
+2	l.4	s.3	t.5	u.5	v.3
+3	a.1	b.1	l.6	o.1	q.2	s.3	t.3	u.6	v.3
+pouvoir	n.1	p.1
+sera	b.1	j.1	l.2	r.1	s.9	t.1	u.3
+4	l.3	s.4	t.3	u.3	v.3
+selection	t.2
+5	d.1	l.3	s.3	t.3	u.3	v.3
+6	l.3	s.3	t.3
+7	l.5	s.3	t.3
+conception	q.1
+8	s.3	t.3
+9	a.1	b.1	q.2	s.3
+adaptes	t.1
+entrerons	l.1	s.1
+selectionnant	h.1
+infinite	l.1
+apparait	l.1	q.1	s.4	t.1	u.1
+example	l.8	s.9	t.8	u.6	v.3
+cet	d.1	r.1	s.1
+ateliers	h.2
+essaierons	s.1
+procedures	s.1	t.1
+wikipedia	s.1
+seul	q.1
+referencement	l.1	s.1
+differents	s.1	t.3
+tutoriel	b.1	c.1	f.1	p.1
+objectifs	s.4
+copyrights	t.2
+parcours	f.1
+photo	s.1	u.2
+o	u.1
+the	l.1
+suite	f.1	o.1	s.2	t.1	u.1
+x	u.1
+veuillez	l.2	t.1	v.1
+illustration	l.2	t.2	u.1
+information	t.2
+utilite	q.1
+originel	t.1
+garde	s.1
+standard	t.2
+accompagne	b.1
+autonome	q.3
+notez	l.1
+renommez	l.1
+tip	d.1
+renommer	l.1	u.1
+activite1	s.1
+bibliographie	s.1	t.1
+lumiere	u.3
+photographie	j.1	l.3	s.8	u.2	v.1
+faut	f.1	n.1
+modeles	f.4	q.5
+definissant	s.1
+eme	l.1	u.1
+localement	d.2
+arrivez	s.1
+auteurs	s.1	t.2
+empechera	s.1
+reviendrons	t.1
+gra	u.1
+vos	s.1
+utilisateurs	q.1
+pouvez	l.2	q.1	s.4	t.1	u.1
+identifiant	n.1	o.2
+multiple	k.1	u.2
+erreur	s.4
+debuter	t.1
+activites	f.1
+activer	l.2	t.1	v.1
+activez	r.1
+egalement	s.1
+ressource	l.4	t.2	u.1	v.2
+recharger	l.2	t.1	v.1
+referencee	s.3
+filtre	t.1
+copyright	s.2
+blocs	t.1
+construire	s.1	t.1
+bravo	l.1
+ajoute	t.1
+coche	l.1	u.3
+transverses	t.3
+rien	l.2
+concise	s.1
+deroulant	f.1
+block	d.2	h.3	l.9	q.1	r.1	s.9	t.9	u.6	v.4
+onglet	l.1	s.5	t.1	u.1
+cle	s.4
+procede	u.1
+propos	m.1
+epure	s.1
+moteur	t.3
+distant	c.1	o.2
+propose	s.1	u.1
+reponses	f.1	l.2	u.2
+parlera	f.1
+reproduire	s.1	t.1
+universite	n.2	o.1
+couche	s.1
+surtout	q.1
+attente	s.1
+cibles	v.1
+remplissez	h.1
+entrez	l.4	n.1	o.3	s.9	t.3	u.5	v.2
+cc-by	s.1
+entrer	l.2	o.1
+entres	u.1
+propre	f.1	n.1
+instant	h.2	s.1
+projet	t.1
+tot	l.1
+affectes	s.1
+mauvaise	l.1
+cree	j.1	r.1	s.1
+dokiel	f.1
+fenetre	h.2	j.1	o.2	q.1	r.1	s.2	t.1
+question	k.4	l.4	u.3	z.1	A.1
+disquette	l.1
+premier	s.1
+redaction	b.1
+avenir	q.1
+ulco	m.1	o.1	q.1	s.1	t.1
+fleches	l.1
+future	s.2
+cela	q.1
+proposant	f.1
+papier	t.1
+incontournable	r.1
+vue	l.1
+modifier	t.2
+metadonnees	l.2	s.2
+points	o.1
+devient	q.1
+mode	r.1	u.1
+voir	f.1
+topaze	f.1
+etc	f.1
+academie	l.1
+complement	l.3	s.1	t.3	v.1
+facultatif	s.2
+domaine	f.1
+cliquez	j.1	l.7	o.3	p.1	q.1	r.2	s.9	u.5
+elaboration	f.1
+etes	l.2	t.1	v.1
+outils	t.4
+aboutit	u.1
+afficherez	t.1
+apprenant	f.1	l.1
+fichiers	c.1	p.1	t.1
+technique	f.1	s.1
+ensemble	s.1
+media	l.2	t.2	v.1
+autres	h.1	q.1	r.1
+colonne	j.1	l.1	r.1	u.1
+credits	t.1
+construction	s.1
+importation	q.1
+defini	s.1
+conventionnelle	l.2
+daguerre	l.1
+aurait	s.1
+subdivise	r.1
+dedie	f.1
+forme	f.2	l.2
+possibilite	l.1	q.1	u.1
+application	d.1
+preferez	d.1
+procedes	s.1
+stable	d.1	s.1
+changement	l.1
+objectif	s.2
+scenarichainng-clien	c.1	d.5	o.2
+synthese	t.1
+decidez	q.1
+ecrit	u.1
+nombreux	f.1
+exercices	b.1	k.2	l.1	t.4	u.1	B.1
+mot-cle	s.1
+scenarichain-server	d.1
+apparaitront	t.1
+grandes	r.1
+horizontaux	l.1	u.1
+remarquerez	s.1
+verrons	s.1	t.1
+wysiwym	f.1
+modele	e.2	f.2	h.1	q.2	r.1
+quelque	f.1
+element	s.5
+textuelle	t.2
+substantif	u.1
+png	l.1
+janvier	l.2
+photographe	s.1
+univ-littoral	n.2	o.2
+difference	f.1
+1903	l.1
+graphein	u.1
+items	s.4
+logiciel	q.1
+photography	u.1
+vide	s.2
+numero	l.1
+besoin	p.1
+document	s.7	t.1	u.1
+opale	a.1	b.1	e.2	f.1	g.2	h.3	p.1	q.9	r.4	s.1
+desirant	d.1
+miguel	m.1
+ecrire	u.1
+grise	s.1
+generer	b.1
+grace	f.1	t.1
+arts	s.1
+creation	f.1	g.1	h.2	i.1	j.1	n.2	o.1	r.2	s.2	t.1
+graphie	u.2
+quiz	l.1	u.1
+visualiser	l.3	u.1
+selectionner	s.2
+gras	f.1	l.1
+peuvent	t.1
+selectionnez	h.1	j.1	l.5	q.1	r.1	s.9	t.2	u.6
+peindre	u.1
+parametrer	c.1	o.1
+attirer	l.1
+permettent	s.1
+droits	s.1
+utilisations	f.1
+parametrez	h.1
+desirez	l.1
+aurez	p.1	s.1
+parcimonie	t.1
+glossaire	s.1	t.1
+pourrez	d.1
+definis	f.1
+definir	s.2
+organisation	s.4
+wisiwim	f.1
+generales	s.3
+sciences	l.1
+publies	t.1
+cible	v.2
+guider	f.1
+wisiwig	f.1
+champ	s.1
+bonne	l.1
+croix	s.2
+designe	s.2
+medias	p.1
+gauche	l.2	o.1	q.1	u.1
+pedagogique	a.1	b.2	s.2
+parties	r.1
+page	s.8	t.7
+import	q.1
+presentera	s.1
+aux	t.1
+meta-tag	l.1
+impossible	l.2	t.1	v.1
+edition	g.1	s.4
+description	h.1
+video	l.2	t.2	u.6	v.2
+non	l.2	s.1	u.2
+nom	t.2
+conclusion	s.5
+negative	s.1
+precedemment	q.1
+suivez	s.1	t.1
+emphase	l.1
+completerons	s.2
+obligatoire	s.2	t.1
+niveau	f.1	r.2
+premiere	s.2	t.1
+cliquant	l.1	s.1
+what	f.4
+gardons	t.1
+affilie	t.1
+cles	t.1
+travailler	d.4	q.2
+window	l.1
+desirerez	t.1
+compte	n.3	o.2
+applications	q.1
+bouton	l.1	r.1
+usage	d.1
+neanmoins	d.2
+demande	n.2	o.1
+possibles	l.1	u.1	v.1
+racines	u.1
+options	h.3	q.1
+imaginer	t.1
+categorisez	v.1
+plan	s.4	t.1
+bien	d.1
+generation	s.1
+item	j.2	l.1	r.6	s.7	t.1	u.1
+niepce	l.1
+double	o.1
+dossier	t.1
+facon	d.1	s.2
+illustre	l.1
+creative	s.1
+auteur	m.1
+differentes	h.1	s.1	t.1
+separe	f.1
+droit	j.1	l.1	r.2	s.2	u.1
+succeder	s.1
+abreviations	s.1
+direct	t.1
+connexion	n.2
+formation	f.1	p.1
+glisser-deposer	t.1
+clefs	l.1
+commons	s.1
+appuyer	s.1
+2eme	s.1
+parametrages	t.1
+web	b.1	i.2	j.3	l.1	s.1	t.4	u.2
+choisissez	h.1	t.1
+theme	f.1	l.1
+publi	j.1
+categories	v.1
+suivre	p.1
+scenaridesktop	q.1
+wspack	q.5
+recherche	t.4
+garder	l.1	u.1
+toujours	f.1	l.1
+ecran	l.2	t.1	v.1
+telechargeables	q.1
+ajoutes	t.1
+ajouter	s.1	t.1	u.2
+mots	k.1	l.1	s.1	t.1	x.1
+ainsi	q.1	u.1
+zone	s.7
+seule	d.1
+synthetiser	t.1
+contextuel	r.1
+licence	s.7
+similitudes	d.1
+visible	s.1
+format	q.2	t.2
+archive	p.1
+phototype1	s.1
+pause	l.2	t.1	v.1
+corps	s.1
+important	f.1	s.1
+reponse	k.2	l.8	u.6	z.1	A.1
+grecque	u.1
+phrase	s.1
+produire	s.1
+correction	l.2	u.1
+complementaire	u.3
+documentaire	b.1	e.2	f.2	q.1	r.1
+traitement	s.1
+endroit	v.1
+propres	f.1
+explication	l.7	u.6
+suffixe	u.1
+ouvrir	h.1	o.3	q.1
+introduction	s.5
+jpg	t.1
+ligne	d.1	f.1
+etudie	f.1
+scenaribuilder	f.1
+zoom	u.1
+souhaitez	l.1
+mean	f.1
+attention	l.1	s.1
+petite	s.1
+versioning	t.1
+aucun	t.1
+complet	t.1
+fond	f.1
+distinctes	t.1
+evaluation	f.1
+certains	t.1
+des	u.1
+barre	l.2
+demarrer	g.1	n.1	o.1
+bas	l.1	t.1	u.1
+seront	s.1	t.1
+detaillons	d.1
+caractere	f.1
+consigne	u.1	v.2
+documentation	f.1
+afin	p.1	s.2	t.3
+coudre	f.1
+court	s.5
+cours	b.1	r.1	t.1
+enonce	l.2	u.3
+editoriale	b.1
+lorsque	t.1
+acceder	l.4	t.2	v.2
+transparent	s.1
+see	f.2
+abreviation	t.1
+illustrera	t.1
+expositifs	f.1
+voulez	d.1
+procedure	d.1	q.1
+possible	f.1	l.1	t.1
+comparer	f.1
+executable	d.1
+peuvent-etre	t.1
+deroulement	p.1
+publications	h.1
+ordonnancements	k.1	x.1
+questions	t.1
+populaires	f.1
+divisions	r.1
+doute	t.1
+partage	h.1
+enregistrer	s.1
+paternite	s.3
+proposees	h.1
+warning	d.1	q.1	s.3
+trait	l.1	u.1
+enregistrez	l.1	u.1
+image	l.2	s.2	t.5	u.1
+meilleure	s.1
+signifie	u.1
+rigoureusement	d.1
+chrome	c.1	d.5	n.2
+simplement	s.1
+creer	a.1	b.1	f.1	g.1	h.2	j.3	l.5	r.4	s.9	t.1	u.4
+embarquee	u.1
+soit	s.1
+fonction	t.1
+navigateur	d.2
+contenu	a.1	b.2	f.2	l.1	r.1	s.9	t.5	u.1
+toutes	t.2
+associee	l.1	u.1
+desktop	c.1	d.1
+aiguille	s.2
+client	c.1	d.1
+methodes	r.1
+obtenue	s.1
+apprentissage	f.1	l.1	s.2
+mise	l.2
+macosx	q.1
+affiche	l.1	s.3	u.1
+partie	d.1	s.1
+2021	m.1
+une	b.1	d.1	f.1	l.3	n.2	o.1	q.1	s.9	t.4	u.4
+parametrage	i.1	o.1	q.1	t.6
+etiquettes	v.1
+encouragement	l.1
+defaut	l.1	s.3	t.2	u.2
+adresse	l.2	t.1	v.1
+concerne	q.1
+optionnel	l.2
+presents	s.1
+fourni	o.1
+big	q.1
+cocher	u.1
+vers	b.1	u.1
+apprendre	b.1
+prefixe	u.1
+contenus	f.1	q.1
+https	d.1	n.1	o.1	q.1
+manipulation	l.2
+templates	f.1
+index	s.1	t.2
+napparaitront	s.1
+piege	v.2
+autorise	l.2	t.1	v.1
+explorer	t.1
+john	u.3
+selon	f.2
+touche	s.1
+clarte	u.1
+ci-dessous	p.1	q.1	s.1	t.1	u.1
+desactiver	l.2	t.1	v.1
+apercu	l.3	s.2	u.3
+deja	q.1
+dire	f.1
+travail	l.1	p.1	u.1
+libre	t.1
+macos	q.1
+tard	l.1	t.1
+acces	l.2	s.1	t.1	v.1
+positive	s.1
+perturbe	f.1
+menu	r.1	s.3	t.3
+url	d.1	n.2	o.3	q.1
+multi-media	b.1
+explications	l.1
+academique	b.1
+scenarisant	f.1
+placer	v.1
+exercice	l.1	t.1
+complete	s.1	t.1
+riche	b.1
+sommaire	c.1	e.1	g.1	i.1	k.1
+visualisation	s.1
+conseillons	d.1	q.1
+titre	l.3	s.9	u.3	v.2
+libelle	l.4	u.4
+appariement	k.1	w.1
+genere	s.1
+photos	u.1
+fini	t.1
+download	d.1	q.1
+nommez	j.1	r.1
+inclure	s.1
+solution	t.1	u.3
+drollet	m.1
+publication	s.1	t.7	u.1
+poste	p.1
+communication	f.1
+entre	d.1
+disponible	l.2	t.1	v.1
+cbkclosed	l.2	t.3	v.1
+documentaires	f.1	q.2
+liste	k.1	l.1	q.1	s.3	t.1	u.4	B.1
+personne	d.1
+accroche	l.2	u.2	v.2
+creerez	s.3
+graphiques	s.1
+origine	u.2
+plus	d.1	f.1	l.4	r.3	s.2	t.3	v.1
+auto-evalues	k.1	l.1	u.1
+bonnes	u.1
+kodac	t.1
+permettra	b.1
+veut	q.1	t.1
+position	l.1
+orientee	b.1
+servir	l.1
+importer	p.1	t.1
+obtient	s.1
+code	s.2
+pratique	b.1
+demo	t.1
+utiliser	d.2	q.1
+puis	h.1	j.1	l.7	o.3	p.1	q.1	r.1	t.1	u.4	v.1
+plusieurs	f.1	l.1	u.1
+affichage	d.1	r.1	s.1	t.3
+decouvrir	t.1
+fichier	j.1	l.1	r.1	s.3	u.1
+papiers	b.1
+utilisez	t.1
+structure	b.1
+merci	s.1
+amelioration	l.1
+invention	l.5
+esperant	s.1
+facons	s.1
+possede	n.1
+laissez	t.1
+objective	t.1
+nomenclature	t.1
+copiez-collez	s.2
+globale	l.2	u.2
+entrepot	c.1	o.2
+10	m.1
+11	q.1
+12	l.1
+15	l.1
+module	b.1	g.2	r.3	s.9	t.2
+telecharge	q.1
+installer	d.1	e.1	q.2
+exemple	f.1	t.1	v.1
+icones	t.1
+meta	s.1
+unique	k.1	l.2
+apparaitra	l.1	s.2
+logicielle	f.1
+interet	s.1
+29	m.1
+texte	b.1	k.1	l.4	s.9	y.1
+long	s.1
+ressources	b.1	t.1
+supports	b.1	i.1
+lecture	l.2	t.1	v.1
+audio	l.2	t.1	v.1
+explorateur	j.1	l.1	r.3	t.1	u.1
+cochant	h.1
+accueil	o.1	t.3
+connectez	q.1
+transverse	t.1
+representant	r.1
+connecter	c.1	n.2	o.2
+integre	u.1
+optimoffice	f.1
+inspire	s.1
+littoral	n.2	o.1
+aide	d.1
+atelier	g.1	h.5
+convenir	d.1
+identique	d.1
+lateral	s.3
+presentation	l.1
+zero	s.1
+plein	l.2	t.1	v.1
+jour	l.1	t.1
+trous	k.1	y.1
+allons	s.3	t.1	u.2
+scenari	a.1	b.1	c.1	d.2	f.1	n.2	o.1	q.4	r.1	s.4
+outil	d.1	f.2
+modules	b.1	f.1
+scenarichainng-deskt	d.4	e.1	q.2
+clique	j.1	l.1	o.1	r.2	u.1
+formations	f.1
+arago	l.1
+navlang	d.1	q.1
+fermez	h.1
+support	i.2	j.2	t.8
+numerique	k.1	A.1
+etape	s.2
+sein	t.1
+preoccupez	h.2	s.1
+specifiques	f.1
+changer	t.1
+assistance	n.1	o.1
+rouge	s.2
+lien	u.1
+definition	e.1	f.1
+1839	l.2	u.1
+definissez	s.3
+semble	d.1
+hierarchie	r.1
+fixe	s.1
+daguerreotype8	l.1
+normal	l.1	s.2
+types	t.2	u.1	v.1
+mars	l.1	u.1
+mp4	u.1
+ajoutant	s.3
+icone	l.1	o.1	s.2	t.1	u.1
+rapide	r.1
+choix	k.2	l.4	s.3	u.7
+enfin	u.1
+software	d.1	q.1
+aviez	s.1
+type	b.1	s.1
+compatible	q.1
+chaine	b.1
+scenarichain-server5	n.1	o.1
+bureautique	f.1
+zip	p.2
+collaborative	d.1
+balises	s.1
+versions	t.1
+permettrons	f.1
+branche	s.1
+installe	q.1
+word	f.1
+patrons	f.1
+diaporama	t.1	u.2
+dessiner	u.1
+decompressez	p.1
+oui	t.1	u.2
+cacher	t.1
+supprimer	s.1
+installation	c.1	d.1	e.1
+get	f.1
+sensible	s.1
+aout	l.1
+photographies	v.1
+afficher	t.1
+existe	f.1	r.1
+scenariclientng	d.1
+excel	f.1
+site	b.1	s.1	t.2
+etiquette	v.2
+elements	t.1
+courte	k.1	t.1	z.1
+permet	d.1	f.2	t.1
+exposition	s.1
+mots-cles	s.2
+monpremiermodule	r.1
+date	l.2	m.1	t.3
+parle	t.1
+renseigner	s.1
+avez	l.2	q.1	s.1	u.1
+aller	n.1	t.1
+wiki	s.1
+condense	s.1
+reference	s.3
+herschel	u.3
+assets	p.1	t.1
+divers	p.1
+apres	d.1	s.1
+allez	b.1	s.1
+1658	l.1
+proposer	l.1
+materiels	s.1
+serveur	d.1	h.1	n.4	o.2	q.1
+inserer	t.2
+activite	s.2
+bloc	u.1
+close-up	t.1
+choisir	t.2
+techniques	s.1
+insertion	l.1	u.1
+concevoir	f.2
+note	h.3	l.1	r.1
+suivants	t.1	v.1
+champs	h.1	l.4	s.5	t.1	u.2
+facultative	h.1
+ouvre	t.1
+glissez	l.1	u.1
+suivante	d.1
+cas	r.1
+public	t.1
+derniere	s.1
+feminin	u.1
+possibilites	t.2
+mots-cle	s.1
+cette	q.1	s.2
+viens	t.1
+terme	f.1	q.1	s.2
+provient	u.1
+verifier	l.2	t.1	v.1
+agit	l.1	v.1
+autonomes	q.1
