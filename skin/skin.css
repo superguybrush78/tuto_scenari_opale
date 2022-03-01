@@ -1,0 +1,9 @@
+/** SKIN OVERLOADS ************************************************************/
+
+/*	Preview	*/
+.scCommentToolBar .activationCommentDiv {
+    top:inherit;
+    bottom: 5px;
+    right: 160px;
+	left:inherit;
+}

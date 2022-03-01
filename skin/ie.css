@@ -1,0 +1,6 @@
+/** INTERNET EXPLORER SPECIFIC STYLES *****************************************/
+/* bug sur certains ie avec le stylage tutorial, il n’est plus centré, mauvaise interprétation du max-width + du margin auto quand #page est en absolute */
+
+#page.tplTutorial{
+	max-width:100%;
+}

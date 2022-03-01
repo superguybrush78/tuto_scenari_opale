@@ -1,0 +1,1397 @@
+/* =============== SKIN TUTORIAL ========================= */
+
+/* ===== START - FULL SCREEN MODE ===== */
+#page{
+	height:100%;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 70px;
+}
+
+#main main {
+    display: flex;
+    flex-direction: column;
+	flex: 2 1 auto;
+}
+
+div#content {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+#footer {
+	flex: 0 0 auto;
+	padding: 0;
+}
+/* ===== STOP - FULL SCREEN MODE ===== */
+
+/* ===== START - HOME ================ */
+div#page.tplHome::before {
+    content:none;
+	padding: 0;
+}
+.tplHome #header {
+    background-color:transparent;
+}
+.tplHome #header h1 {
+    position: absolute;
+    left: -9999px;
+}
+.tplHome #main {
+    margin: 40px 0 0;
+}
+.tplHome #content {
+    padding: 0;
+}
+.tplHomeTiFra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.tplHomeTiFra table{
+	background:rgba(255,255,255,0.7);
+	z-index:2;
+}
+.tplHomeTiFra td.tplHomeLogo {
+    padding: 1em;
+}
+.tplHomeTiFra figure.caption.image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.tplHome #footer {
+    position: static;
+}
+.tplHome #footer #navFooter {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #edd9e3;
+}
+
+.tplHome #footer #navFooter ul{
+	list-style-type:none;
+	padding:0;
+	margin: 2em;
+	text-align: right;
+}
+
+p.time{
+	font-size:1.2em;
+	color:#876194;
+	font-weight:bold;
+	flex: 1 1 auto;
+	margin: 3em;
+}
+p.time::before {
+    font-family: "fontello";
+    content: "\e800";
+    font-weight: normal;
+    margin-right: 0.5em;
+}
+em.timeName{
+	display:none;
+}
+
+/* ===== STOP - HOME ================= */
+
+/* ===== START - PAGES =============== */
+.headCo.intro, .headCo.bind  {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.headCo_ti.bind_ti {
+    text-align: center;
+}
+/* ===== STOP - PAGES ================ */
+
+/* ===== START - FOOTER ============== */
+#footer{
+	min-height:44px;
+	display:flex;
+	flex-direction:column;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 1200px;
+	width: 100%;
+    margin: 0 auto;
+	background-color: #fff;
+    z-index: 999;
+}
+#footer #navFooter{
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.tplSub #footer {
+    flex-direction: row;
+}
+.tplSub.tplEval #footer {
+    flex-direction: column;
+}
+
+/* ----- NAVIGATION ----- */
+#navFooter nav {
+    flex: 0 0 auto;
+    position: relative;
+	border-bottom: none;
+}
+
+#footer #navFooter a{
+	color:#fff;
+	background-color:#876194;
+}
+
+#footer #navFooter a.navStart, #footer #navFooter a#gotoLastLocBtn {
+	line-height: 40px;
+	font-size: 1.3em;
+    padding: 0 1em;
+	text-decoration: none;
+	color:#fff;
+	display:inline-block;
+}
+
+#footer #navFooter a:hover {
+	background-color:#ad92b3;
+}
+
+#footer #navFooter a.navStart::after,
+#footer #navFooter a#gotoLastLocBtn::after {
+	font-family: "fontello";
+    content: "\e810";
+	margin-left:5px;
+}
+
+/* ----- INFO ----- */
+#footer #navInfo{
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 3px;
+	border-top:2px solid #876194;
+}
+
+#footer #navInfo a.btnSc,
+#footer #navInfo a.btnAbout,
+#footer #navInfo a.cookieWarnBtnBar
+#footer #navInfo span.copyright {
+	margin-top: 0;
+}
+
+/* ----- PROGRESS BAR ----- */
+#navFooter #pBar {
+    position: relative;
+    background-color: #e2d8e4;
+    flex: 2 1 auto;
+}
+
+div#navFooter div#pBar div{
+	position:absolute;
+	height:100%;
+	width:0;
+	left:0;
+}
+div#navFooter div.pDone{
+	background-color:#876194;
+	text-align:right;
+	color:#fff;
+}
+div.pDone .pValue{
+	display: none;
+}
+div.pDone span {
+    line-height: 40px;
+    padding-right: 6px;
+    font-weight: bold;
+}
+/* ===== STOP - FOOTER =============== */
+
+/* ===== START - SUBWINDOW =========== */
+/*--- CONTAINER --------------------------------------------------------------*/
+.subWindow_over{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: white;
+	opacity:0.6;
+}
+.subWindow_win{
+	position:fixed !important;
+	max-width: 1100px;
+	margin: 0 auto;
+	top:3em;
+	bottom:3em;
+	left:3em;
+	right:3em;
+	display: flex;
+	flex-flow: column;
+	background-color: white;
+	box-shadow: 0px 0px 20px 0px #aaa;
+}
+.subWindow_ti{
+	flex: 0 0 1.5em;
+	min-height: 30px;
+	padding-left:0.5em;
+	font-weight: bold;
+}
+.subWindow_co{
+	flex: 1 1 auto;
+	position: relative;
+}
+.subWindow_co > a.focusOnCloseBtn{
+	position:absolute;
+	left:-1000px;
+	top:-1000px;
+}
+.subWindow_fra{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+a.subWindow_x {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #876194;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a.subWindow_x:hover {
+    box-shadow: 0 0 2px #000;
+    text-decoration: none;
+}
+
+a.subWindow_x::before {
+	font-family:"fontello";
+	content:"\274C";
+}
+
+a.subWindow_x span {
+	display:none;
+}
+
+/*--- subWin --------------------------------------------------*/
+#page.tplSubWin::before {
+	content:none;
+}
+.tplSubWin #header{
+	padding: 0;
+    position: static;
+    height: auto;
+}
+.tplSubWin #menu .outRoot a::before {
+	font-family: "fontello";
+    content: "\e816";
+}
+.tplSubWin #header{
+	min-height: auto;
+}
+.tplSubWin #main{
+	margin: 0;
+}
+.tplSubWin #main main{
+	justify-content:flex-start;
+}
+/* ===== STOP - SUBWINDOW ============ */
+
+/* ===== EVAL ======================== */
+#page.tplEval::before, .tplEval #header, 
+.tplEval div#navFooter div#pBar{
+	background-color:#E0F7FA;
+}
+.tplEval #footer #navFooter a,
+.tplEval div#navFooter div.pDone {
+    background-color: #00838F;
+}
+.tplEval #footer #navFooter a:hover {
+    background-color:#00ACC1;
+}
+
+.headCo_ti.mainEv_ti {
+    text-align: center;
+}
+
+.evalEnterMsg, .headCo.mainEv.end .evalEnd {
+    padding: 1em;
+    background-color: #E0F7FA;
+}
+
+.evalEnd .score, .evalEnd .evalEndingMsg {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+	margin-bottom:1em;
+	background-color: #E0F7FA;
+    padding: 0.5em 1em;
+}
+
+.evalEnd .synthesis_ti {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.scoreEval {
+    margin: 0.5em 0;
+    line-height: 2.5em;
+    background-color: #e9e9e9;
+    padding: 0 1em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.solBody {
+    padding: 1em;
+}
+
+.mainSol .question_ti, .solBody .score_ti, .solBody .sol_ti {
+    position:absolute;
+	left:-9999px;
+}
+
+.solBody .question {
+    background-image: none;
+    padding-left: 0;
+}
+
+a.enterBtn,
+a.validBtn,
+a.solBtn,
+a.btnRestartE {
+	margin-top:1em;
+	background-color:#00838F;
+	display:inline-block;
+	line-height:1.5em;
+	font-size:1.1em;
+	color:white;
+	text-decoration:none;
+	padding: 5px 5px;
+}
+
+a.enterBtn:hover,
+a.validBtn:hover,
+a.solBtn:hover,
+a.btnRestartE:hover{
+	opacity:0.7;
+}
+/* ===== STOP - EVAL ========================= */
+
+/* ===== START - BLOCKS ====================== */
+
+/* --- Objectifs pédagogiques ---------------- */
+.objectives.block {
+    background-color: #e0f7fa;  
+}
+.objectives.block::before {
+    content: "\e901";
+	background-color: #00838F ;  
+}
+.objectives_ti{
+	color:#00838F ;
+	font-size:1em;
+}
+
+/* --- Déroulement ----------------------------- */
+.agenda.block::before {
+    content: "\1F550";
+	background-color: #00ACC1;  
+}
+.agenda_ti{
+	color:#00ACC1;
+	font-size:1em;
+}
+
+/* ----- Compléments --------------------------- */
+.cbkClosed {
+    margin-bottom: 1em;
+}
+a.cbk_closed,
+a.cbk_open{
+	background-color: #e0f7fa;
+    color: #00838F;
+    padding: 1em 1.5em;
+    text-decoration: none;
+	position:relative;
+	display: inline-block !important;
+	font-weight: bold;
+}
+a.cbk_closed:hover,
+a.cbk_open:hover{
+	opacity:0.7;
+}
+a.cbk_closed::before,
+a.cbk_open::before{
+	position: absolute;
+    left: -12px;
+    top: calc(50% - 12px);
+    width: 24px;
+    height: 24px;
+    background-color: #00838F;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+    font-family: "fontello";
+    line-height: 24px;
+    font-size: 1.2em;
+}
+a.cbk_open::before{
+	content:"\2BC5";
+	line-height: 22px;
+}
+a.cbk_closed::before{
+	content:"\E802";
+}
+div.cbk_co {
+	padding-left: 1em;
+}
+
+div.cbk_co section.concept, div.cbk_co section.stepList, div.cbk_co div.tree.block, div.cbk_co div.screen.block{
+	margin-top:0;
+}
+
+/* ----- Exercice dirigé ----------------------- */
+div.exerciseQ.block{
+	background:none;
+}
+div.cbk.solution {
+	margin-top:1.6em;
+}
+.mainEx_co > .cbk.solution > a{
+	font-size:1.3em;
+	font-weight:bold;
+}
+.exerciseQ_ti  span.blockType{
+	display:inline;
+	color:gray;
+	font-weight:bold;
+}
+.exerciseQ > .block_co{
+	border-left: none;
+}
+.cbk_co div.block a.slpBtnStp,
+.exerciseQ_co div.block a.slpBtnStp{
+	left:0;
+}
+/* ===== STOP - BLOCKS ===================== */
+
+div.question,
+div.block_el,
+div.score_bk {
+	position: relative;
+}
+.question > .block_co,
+.block_el > .block_co,
+.score_bk > .block_co {
+	border-left-color: #A8A8A8;
+}
+.question_ti span.blockType,
+.sol_ti span.blockType,
+.block_el span.blockType,
+.score_ti span.blockType{
+	display:inline;
+	color: #A8A8A8;
+}
+
+.question_ti span.block_ti_co,
+.sol_ti span.block_ti_co,
+.block_el > .block_ti span.block_ti_co,
+.score_ti span.block_ti_co {
+	background-image: none;
+	display: inline-block;
+	min-height: 16px;
+	padding-left: 5px;
+}
+
+div.trainNote_ti,
+div.trainNote_co div.bloc_ti{
+	color:#ffaaaa; /* warning red */
+}
+.outLabel span.time,
+#stack span.time {
+	background-color:#ffaaaa; /* warning red */
+	border-radius: 1em ;
+	font-size: 0.9em;
+	font-style: italic;
+	margin-left: 0.3em;
+	padding: 0.3em;
+}
+#menu span.time {
+	display:none;
+}
+div.trainNote_co{
+	border-left:1px dotted #ffaaaa; /* warning red */
+	border-bottom:1px dotted #ffaaaa;
+	border-radius: 5px;
+}
+
+/* === START - QUIZ ========================================================= */
+/* --- GENERAL STYLES ------------------------------------------------------- */
+.exerciseInfo p.time {
+    margin: 10px;
+}
+.exercice {
+	border-left: 2px solid #393939;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.exercice_ti {
+	color: #393939;
+}
+
+.quizBody {
+	display: flex;
+	flex-flow: column;
+}
+
+.quizBody > * {
+	flex: 0 0 auto;
+}
+
+.quizBody > .toolbar {
+	order: 1;
+}
+
+.quizBody > .question {
+	order: 2;
+}
+
+.quizBody > .questions {
+    order: 3;
+}
+
+.quizBody > .response {
+	order: 3;
+}
+
+.quizBody > .globalExp {
+	order: 5;
+}
+
+.quizBody > .feedback {
+	order: 4;
+	padding-left: 2em;
+}
+
+.quizList .quizBody > .toolbar {
+	order: 3;
+}
+
+.quizList .quizBody > .question {
+	order: 1;
+}
+
+.quizList .quizBody > .questions {
+	order: 2;
+}
+
+.toolbar {
+	background-color: #e9e9e9;
+	display: flex;
+}
+
+.toolbar > * {
+	flex: 0 0 auto;
+}
+
+.toolbar > .scoreBox {
+	flex: 3 3 auto;
+}
+
+/* Toolbar dans liste de Quiz */
+.subQuiz .toolbar {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+.subQuiz .quizBody {
+	margin-top: 0;
+}
+
+.btnQuiz {
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 2.5em;
+	height: 2.5em;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: #393939;
+}
+
+.btnQuiz:hover, .btnQuiz.toggleButtonOn {
+	background-color: #393939;
+	color: #fff;
+}
+
+.btnQuiz span::before {
+	font-family: "fontello";
+	font-weight: normal;
+	margin-right: 5px;
+}
+
+.correction span::before {
+	content: "\2713";
+}
+
+.reset span::before {
+	content: "\27F2";
+}
+
+.scoreBox {
+	line-height: 2.5em;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.answBest {
+	color: #4a8d8a;
+}
+
+.answWorst {
+	color: #ee1c25;
+}
+
+.exoAsw {
+	margin-top: 20px;
+}
+
+.exoSol {
+    color: green;
+    padding-left: 0.5em;
+}
+
+/* --- OPENQUEST ------------------------------------------------------------ */
+.openQuestion .block_closed, .openQuestion .block_open {
+	text-decoration: none;
+}
+
+.openQuestion .block_open::before {
+	content: '\e80b';
+	margin-right: 5px;
+	font-family: "fontello";
+}
+
+.openQuestion .block_closed::before {
+	content: '\e80a';
+	margin-right: 5px;
+	font-family: "fontello";
+}
+
+.openQuestion .collBlk_open {
+	margin-left: 0.5em;
+}
+
+/* --- QCU/QCM STYLES ------------------------------------------------------- */
+.response_ti {
+	font-weight: normal;
+	font-size: 1em;
+	display: flex;
+	flex-flow: row;
+	font-style: italic;
+	color: gray;
+	margin: 0;
+}
+
+.response_ti > span:nth-child(-n+2) {
+	flex: 0 0 auto;
+	width: 5.5em;
+}
+
+.response_ti > span:last-child {
+	flex: 1 1 auto;
+}
+
+ul.choiceList {
+	display: flex;
+	flex-flow: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li.choiceList_ch {
+	flex: 0 0 auto;
+	display: flex;
+	flex-flow: row;
+	margin: 0.2em;
+	align-items:center;
+	border-bottom: 1px solid #dadada;
+	padding-bottom: 0.5em;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	position: absolute;
+	left: -9999px;
+}
+
+input[type="checkbox"] + label::before {
+	content:"\2610\FE0E";
+	font-family: "fontello";
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label::before{
+	content:"\2611\FE0E";
+}
+
+input[type="radio"] + label::before{
+	content:"\25CB\FE0E";
+	font-family: "fontello";
+	cursor: pointer;
+}
+input[type="radio"]:checked + label::before{
+	content:"\25C9\FE0E";
+}
+
+div.choiceList_in {
+	flex: 0 0 auto;
+	width: 5.5em;
+}
+
+div.choiceList_sol {
+	flex: 0 0 auto;
+	width: 5.5em;
+}
+
+div.choiceList_la {
+	flex: 1 1 auto;
+}
+
+div.choiceList_la p {
+	margin: 0;
+
+}
+
+.choiceList_sol > input {
+	display: none;
+}
+
+.choiceList_sol::before {
+	font-family: "fontello";
+	margin: 0.25em 0.4em 0;
+}
+
+.assmntSolRight .choiceList_sol::before {
+	content: "\25C9\FE0E";
+}
+
+.assmntSolWrong .choiceList_sol::before {
+	content: "\25CB\FE0E";
+}
+
+.assmntSolCheck .choiceList_sol::before {
+	content: "\2611\FE0E";
+}
+
+.assmntSolUnche .choiceList_sol::before {
+	content: "\2610\FE0E";
+}
+
+.choiceExplain, .explain, .choiceExp, .globalExp {
+	background-color: #D4EFDF ;
+	margin: 1em 0 1em 15px;
+	position: relative;
+	padding: 1em 1.5em;
+	min-height: 16px;
+}
+.explain_ti, .globalExp h4{
+	position:absolute;
+	left:-9999px;
+}
+.choiceExplain::before, .explain::before, .choiceExp::before, .globalExp::before {
+	content: "\2713";
+    font-family: "fontello";
+    left: -13px;
+    position: absolute;
+    top: .6em;
+    width: 26px;
+    height: 26px;
+    background-color: #186A3B;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* --- CATEGORISATION/ORDONNANCEMENT ------------------------------------------------------- */
+.mtTable {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 5px;
+	border: 0;
+}
+
+.mtTable td {
+	border: 0;
+}
+
+.mtTdBasket {
+	width: 30%;
+}
+
+.mtTdBasketSol {
+	display: none;
+}
+
+
+.mtTdArrow {
+	text-align: center;
+	vertical-align: middle;
+	width: 30px;
+}
+
+.mtTdArrow::before {
+	color: #d0d0d0;
+	font-family: "fontello";
+	font-size: 20px;
+	content: "\e80a";
+}
+
+.ddDropContIfEmpty {
+	height: 30px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.ddDropContIfEmpty::before {
+	color: #d0d0d0;
+	font-family: "fontello";
+	font-size: 20px;
+	content: "\e80b";
+}
+
+.mtTdSol {
+	width: 50%;
+}
+
+.mtTdDropCont, .mtTdBasket {
+	padding: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+.mtTdBasket .ddBasket, .mtTdBasket .ddBasketCatch {
+	min-height: 250px;
+}
+
+.mtTdHeading {
+	text-align: center;
+}
+
+.olTableSol {
+	width: 100%;
+}
+
+.olTdSolHead {
+	width: 9em;
+}
+
+.ddBasket {
+	margin-bottom: 5px;
+}
+
+.ddBasketCatch {
+	border: 1px solid #393939;
+}
+
+.ddDropCatch {
+	border: 1px solid #393939;
+}
+
+.ddBasketCont, .ddDropCont {
+	padding: 2px;
+}
+
+.ddBasketSol, .ddDropContIfEmpty span {
+	display: none;
+}
+
+.ddRepArea {
+	margin-bottom: 5px;
+}
+
+.mtLabel p, .mtLabelSol p, .ddLabel p, .ddLabelSol p {
+	text-indent: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 1.1em;
+}
+
+.ddDropTi {
+	font-weight: bold;
+	background-color: #393939;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.mtTdSol .ddDropContIfEmpty, .olTableSol .ddDropContIfEmpty {
+	background: inherit;
+}
+
+/*Cadre gris des étiquettes */
+.ddLabel, .ddLabelSol {
+	text-align: center;
+	border: 1px solid Gray;
+	background-color: White;
+	padding: 2px;
+	min-width: 10em;
+	cursor: move;
+	margin: 0.1em 0.1em 0.2em 0.1em;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ddLabel audio, .ddLabelSol audio {
+	max-width: 10em;
+}
+
+.mtLabel, .mtLabelSol {
+	display: inline-block;
+	vertical-align: top;
+	padding: 2px;
+	margin: 2px;
+	border: 1px solid Gray;
+	background-color: white;
+	cursor: move;
+}
+
+.mtLabel span.myTT_a {
+	cursor: move;
+}
+
+.mtLabelSol, .mtLabelSol span.myTT_a, .ddLabelSol {
+	cursor: default;
+}
+
+/*Survol des paniers */
+.ddBasketDragOver {
+	background-color: #dadada;
+}
+.ddCatchDragOver {
+	background-color: #dadada;
+}
+
+/*Fin du panier*/
+.ddBasketEnd, .ddCatchDragEnd {
+	clear: both;
+}
+
+/*Titres des cat�gories et des �tiquettes  */
+.ddDropTi p, .ddLabel p, .ddLabelSol p {
+	margin: 0px;
+	text-align: center;
+}
+
+/* Si le panier de propositions est vide */
+.ddBasketIfEmpty {
+	clear: both;
+	font-style: italic;
+	font-size: 0.9em;
+	color: #686868;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+/*Réponse juste*/
+.ddLabel_Right, .assmntResult_Right {
+	cursor: default;
+	padding: 1px;
+	border: 2px solid #4a8d8a;
+}
+
+.ddLabel_Right span.myTT_a, .assmntResult_Right span.myTT_a {
+	cursor: default;
+}
+
+/*Réponse fausse */
+.ddLabel_Wrong, .assmntResult_Wrong {
+	cursor: default;
+	padding: 1px;
+	border: 2px solid #ee1c25;
+}
+
+.ddLabel_Wrong span.myTT_a, .assmntResult_Wrong span.myTT_a {
+	cursor: default;
+}
+
+.subQuiz {
+	padding: 0 0 20px 0;
+}
+
+.subQuiz_ti {
+	border-bottom: 1px solid;
+}
+
+/* --- TAT / field ------------------------------------------------------- */
+.cloze p {
+	line-height: 1.6em;
+}
+
+.exoInput {
+	border: 1px solid #393939;
+	border-radius: 3px;
+	font-size: 0.9em;
+}
+
+.gapInput {
+	border: 1px solid #393939;
+	border-radius: 3px;
+	font-size: 0.9em;
+}
+
+.gapSize {
+	padding: 2px;
+}
+
+.exoInput,
+.gapInput,
+.gapAnswer,
+.gapSize {
+	font-size: 12px;
+	font-family: Sans-serif;
+	white-space: pre;
+}
+
+.gapInput[disabled] {
+	color: #393939;
+	background-color: #dadada;
+}
+
+.gapAnswer {
+	color: green;
+	border: 1px solid red;
+	border-radius: 0px 3px 3px 0px;
+	border-left: 0px;
+	background-color: #F8F8F8;
+	padding: 1px;
+	height: 19px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.assmntResult_0 .gapInput {
+	border-color: red;
+	color: red;
+	border-radius: 3px 0px 0px 3px;
+	border-right: 0px;
+	text-decoration: line-through;
+}
+
+.assmntResult_1 .gapInput {
+	border-color: green;
+	color: green;
+}
+
+/* --- SELECT ------------------------------------------------------- */
+
+.markers {
+	display: flex;
+	align-items: center;
+	font-size: 0.9em;
+}
+
+.markers > span {
+	flex: 0 0 auto;
+	font-style: italic;
+	color: gray;
+}
+
+.markers label {
+	border-radius: 5px;
+	padding: 0.1em 3px 0.1em 0px;
+	cursor: pointer;
+	margin: 0 0.5em;
+	display: flex;
+	align-items: center;
+	flex: 0 0 auto;
+}
+
+.markers input {
+	vertical-align: sub;
+	flex: 0 0 auto;
+}
+
+.markers label span {
+	padding: 0.1em 0.4em;
+	flex: 1 1 auto;
+}
+
+.markers .selectRed {
+	color: red;
+	background-color: #FFE1E1;
+}
+
+.markers .selectGreen {
+	color: green;
+	background-color: #E5FFE5;
+}
+
+.markers .selectBlue {
+	color: blue;
+	background-color: #DCDCFF;
+}
+
+.markers .selectBlack {
+	color: black;
+	background-color: #E6E6E6;
+}
+
+.select .sol .text_ti, .select .sol .solution_ti,
+.select .response .text_ti, .select .response .solution_ti {
+	color:gray;
+	margin:0;
+	font-size:0.9em;
+	font-style: italic;
+	font-weight: normal;
+}
+.select .text {
+	line-height: 1.8em;
+}
+
+.select_tl {
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.sol .select_tl {
+	cursor: default;
+}
+
+.select_tl:hover {
+	box-shadow: 0 0 2px 0 #efefef;
+	background-color: #f7f7f7;
+}
+
+.multiSelect.Red .select_tl:hover {
+	background-color: #FFE1E1;
+}
+
+.multiSelect.Green .select_tl:hover {
+	background-color: #E5FFE5;
+}
+
+.multiSelect.Blue .select_tl:hover {
+	background-color: #DCDCFF;
+}
+
+.multiSelect.Black .select_tl:hover {
+	background-color: #E6E6E6;
+}
+
+.solution .select_tl,
+.select_yes,
+.sol .simpleSelect .select_tl.select_bad,
+.sol .simpleSelect .select_tl.select_good {
+	box-shadow: 0 0 2px 0 gray;
+	background-color: silver;
+}
+
+.select_yes:hover {
+	box-shadow: 0 0 2px 0 #636363;
+	background-color: #ababab;
+}
+
+.sol .select_yes:hover {
+	background-color: silver;
+}
+
+.solution .selectRed,
+.select_Red {
+	box-shadow: 0 0 2px 0 red;
+	background-color: #FFE1E1;
+}
+
+.select_Red:hover {
+	box-shadow: 0 0 4px 0 red;
+}
+
+.sol .select_Red:hover {
+	box-shadow: 0 0 2px 0 red;
+}
+
+.solution .selectGreen,
+.select_Green {
+	box-shadow: 0 0 2px 0 green;
+	background-color: #E5FFE5;
+}
+
+.select_Green:hover {
+	box-shadow: 0 0 4px 0 green;
+}
+
+.sol .select_Green:hover {
+	box-shadow: 0 0 2px 0 green;
+}
+
+.solution .selectBlue,
+.select_Blue {
+	box-shadow: 0 0 2px 0 blue;
+	background-color: #DCDCFF;
+}
+
+.select_Blue:hover {
+	box-shadow: 0 0 4px 0 blue;
+}
+
+.sol .select_Blue:hover {
+	box-shadow: 0 0 2px 0 blue;
+}
+
+.solution .selectBlack,
+.select_Black {
+	box-shadow: 0 0 2px 0 black;
+	background-color: #E6E6E6;
+}
+
+.select_Black:hover {
+	box-shadow: 0 0 4px 0 black;
+}
+
+.sol .select_Black:hover {
+	box-shadow: 0 0 2px 0 black;
+}
+
+.simpleSelect .select_good {
+	box-shadow: 0 0 2px 0 #00aa00;
+	background-color: #e6ffe6;
+}
+
+.simpleSelect .select_good:hover {
+	box-shadow: 0 0 2px 0 #007d00;
+	background-color: #c9ffc9;
+}
+
+.sol .simpleSelect .select_good:hover {
+	box-shadow: 0 0 2px 0 #00aa00;
+	background-color: #e6ffe6;
+}
+
+.simpleSelect .select_bad {
+	box-shadow: 0 0 2px 0 #ff4a3e;
+	background-color: #ffe5e3;
+}
+
+.simpleSelect .select_bad:hover {
+	box-shadow: 0 0 2px 0 #c1251b;
+	background-color: #ffd0cc;
+}
+
+.sol .simpleSelect .select_bad:hover {
+	box-shadow: 0 0 2px 0 #ff4a3e;
+	background-color: #ffe5e3;
+}
+
+.response {
+	font-size: 1.1em;
+	margin: 1.5em 1em 0.5em 1.5em;
+}
+
+/* --- ICM / ICU ------------------------------------------------------------ */
+.choiceMap_map {
+	margin: 0 auto;
+}
+.choiceMap_mk{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	left: 50%;
+	margin-top: -9px;
+	margin-left: -9px;
+	background-color: rgba(182, 182, 182, 0.5);
+	border: 2px solid #6c6c6c;
+	border-radius: 40px;
+	padding: 2px;
+	background-clip: content-box;
+	box-shadow: 0px 0px 5px 3px white;
+}
+
+/* --- LISTE DE QUIZ -------------------------------------------------------- */
+.questions{
+	counter-reset:question;
+}
+
+.subQuestion, .subQuiz{
+	counter-increment:question;
+}
+
+.subQuestion .question, .subQuiz .question {
+    display: flex;
+    align-items: flex-start;
+}
+
+.subQuestion .question::before, .subQuiz .question::before {
+    content:counter(question) ". ";
+	font-weight:bold;
+	margin: 0.5em 0;
+    line-height: 1.4;
+    margin-right: 0.3em;
+}
+
+/* === START - sessionTimeAlert ============================================= */
+#sessionTimeAlert{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:rgba(0,0,0,0.5);
+	z-index:1000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#sessionTimeAlert > div{
+	background: white;
+	padding: 1em;
+	max-width: 400px;
+	border-radius: 1em;
+	margin-bottom: 20%;
+}
+#sessionTimeAlert > div >span{
+	font-size: 1.5em;
+	color: gray;
+	font-style: italic;
+	display: inline-flex;
+}
+#sessionTimeAlert > div >span::before {
+	color: #d0d0d0;
+	font-family: "fontello";
+	font-style: normal;
+	font-size: 3em;
+	margin-right: 10px;
+	content: "\E801";
+}
+/* === STOP - sessionTimeAlert ============================================== */
+
+/* === START - menuMgr ============================================= */
+.mnu_seen span.outLabel::after{
+	content: "\2713";
+	vertical-align: super;
+	font-size: smaller;
+	color:#4a8d8a;
+	font-family:"fontello";
+}
+/* === STOP - menuMgr ============================================== */
