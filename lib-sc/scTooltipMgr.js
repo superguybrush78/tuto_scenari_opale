@@ -101,7 +101,6 @@ var scTooltipMgr = {
 			}
 		}
 		vTtDiv.fNode = pNode; //Keep pointer to owner node on the tooltip
-		this.xSetTtSize(pNode.ttId, pNode.fOpt); //Calculate size & resize if needed
 
 
 		if (pNode.fOpt.FORCESTICKY) pNode.ttFSticky = true;
@@ -325,8 +324,8 @@ var scTooltipMgr = {
 	xSetDivPos: function(pX, pY) {
 		if (this.fCurrTt.fNode.fOpt.FIXTYPE == 'free') return;
 		var vTtsh = this.fCurrTt.style || this.fCurrTt;
-		this.fCurrTtX = pX -this.xGetEltL(this.fTtParent.offsetParent);
-		this.fCurrTtY = pY -this.xGetEltT(this.fTtParent.offsetParent);
+		this.fCurrTtX = pX -this.xGetEltL(this.fCurrTt.offsetParent);
+		this.fCurrTtY = pY -this.xGetEltT(this.fCurrTt.offsetParent);
 		vTtsh.left = this.fCurrTtX+'px';
 		vTtsh.top = this.fCurrTtY+'px';
 	},
@@ -561,20 +560,22 @@ var scTooltipMgr = {
 				var vRef = vAncNode.nextSibling;
 				while(vRef && vRef.nodeType != 1) vRef = vRef.nextSibling;
 				if(vRef && this.fHideBasket) vRef.style.display = "none";
-				else if(vRef) vRef.className = vRef.className + " " + this.fRegCls;
+				else if(vRef && this.fRegCls) vRef.className = vRef.className + " " + this.fRegCls;
 			}
 
 			if (this.fHideBasket) vTtSrc.style.display = "none";
-			else vTtSrc.className = vTtSrc.className + " " + this.fRegCls;
+			else if(this.fRegCls) vTtSrc.className = vTtSrc.className + " " + this.fRegCls;
 
-			var vBskt = vTtSrc.parentNode;
-			var vBsktElts = vBskt.childNodes;
-			if (this.xHasAttr(vBskt, "data-titled-basket")) vBskt = vBskt.parentNode;
-			var vEmpty = true;
-			for(var i = 0; i < vBsktElts.length; i++) if (vBsktElts[i].nodeType==1 && !vBsktElts[i].ttIds) {vEmpty = false; break;}
-			if (vEmpty){
-				if (this.fHideBasket) vBskt.style.display = "none";
-				else vBskt.className = vBskt.className + " " + this.fRegCls;
+			if (this.fHideBasket || this.fRegCls){
+				var vBskt = vTtSrc.parentNode;
+				var vBsktElts = vBskt.childNodes;
+				if (this.xHasAttr(vBskt, "data-titled-basket")) vBskt = vBskt.parentNode;
+				var vEmpty = true;
+				for(var i = 0; i < vBsktElts.length; i++) if (vBsktElts[i].nodeType==1 && !vBsktElts[i].ttIds) {vEmpty = false; break;}
+				if (vEmpty){
+					if (this.fHideBasket) vBskt.style.display = "none";
+					else vBskt.className = vBskt.className + " " + this.fRegCls;
+				}
 			}
 		} catch(e){
 			scCoLib.log("scTooltipMgr.registerTooltip - error : "+e);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<trace><start t="01/03/22 15:53:38"/><l t="Warning" d="01/03/22 15:53:43"><message type="Warning" ts="1646146423708" appCtx="prl-chain-app" user="m2ddl14" thread="ForkJoinPool-1-worker-3" desc="Transformation not found for &quot;transform=imageMagick&amp;command=convert%20%24src%2Brepage%20%24dst&amp;outType=&quot; on source: SrcNodeAgt()"><message type="Exception" ts="1646146423708" appCtx="prl-chain-app" user="m2ddl14" thread="ForkJoinPool-1-worker-3"><details>eu.scenari.commons.util.lang.ScException
+<trace><start t="01/03/22 16:24:11"/><l t="Warning" d="01/03/22 16:24:15"><message type="Warning" ts="1646148255522" appCtx="chain" thread="ForkJoinPool-1-worker-3" desc="Transformation not found for &quot;transform=imageMagick&amp;command=convert%20%24src%2Brepage%20%24dst&amp;outType=&quot; on source: SrcNodeAgt()"><message type="Exception" ts="1646148255522" appCtx="chain" thread="ForkJoinPool-1-worker-3"><details>eu.scenari.commons.util.lang.ScException
 	at eu.scenari.commons.log.LogMgr.newException(LogMgr.java:404)
 	at eu.scenari.commons.log.LogMgr.publishException(LogMgr.java:442)
 	at com.scenari.src.feature.transform.SrcFeatureTransform.defaultTransformAsStream(SrcFeatureTransform.java:260)
@@ -129,19 +129,19 @@
 	at eu.scenari.xml.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:737)
 	at com.scenari.m.ge.pages.TplXslPage.producePage(TplXslPage.java:220)
 	at com.scenari.m.ge.generator.base.GeneratorBase.producePage(GeneratorBase.java:1242)
-	at com.scenari.m.ge.generator.base.GeneratorStatic.wTreatStackPages(GeneratorStatic.java:967)
+	at com.scenari.m.ge.generator.base.GeneratorStatic.wTreatStackPages(GeneratorStatic.java:970)
 	at com.scenari.m.ge.generator.web.WebGenerator.xGenerate(WebGenerator.java:332)
 	at com.scenari.m.ge.generator.base.GeneratorStatic.generate(GeneratorStatic.java:645)
 	at eu.scenari.wsp.module.gen.ThreadGen.call(ThreadGen.java:170)
 	at eu.scenari.wsp.module.gen.ThreadGen.run(ThreadGen.java:157)
-	at eu.scenari.core.universe.Universe$1.run(Universe.java:454)
+	at eu.scenari.core.universe.Universe$1.run(Universe.java:455)
 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-</details></message></message></l><l t="Warning" d="01/03/22 15:53:43"><message type="Warning" ts="1646146423710" appCtx="prl-chain-app" user="m2ddl14" thread="ForkJoinPool-1-worker-3" desc="Echec à la transformation de la ressource 'src=src:;&amp;transform=imageMagick&amp;outType=&amp;command=convert%20%24src%2Brepage%20%24dst' dans &lt;dialog cdAction=&quot;Exe&quot; param=&quot;null&quot; class=&quot;HDialogPages&quot;&gt;&lt;agent uri=&quot;@id:41de1GAQIBOmi1GZnhAptC;_Anav/_Na&quot; class=&quot;HAgentPages&quot;&gt;&lt;agtType code=&quot;_Na&quot; xpathRoot=&quot;&quot; src=&quot;/~param/dokiel4-5/bs/dkGuide/genWeb/transf/content/screen/screen@nav.bs.xml&quot; class=&quot;HComposantTypePages&quot;/&gt;&lt;agtBag agtBagId=&quot;id:41de1GAQIBOmi1GZnhAptC;&quot; /&gt;&lt;/agent&gt;&lt;hier agent=&quot;@id:41ze1GAQIBOmi1GZnhAptC;_Aroot&quot;&gt;&lt;hier agent=&quot;@id:3z7e1GAQIBOmi1GZnhAptC;_Anav&quot;&gt;&lt;hier agent=&quot;@id:41Ze1GAQIBOmi1GZnhAptC;_Anav&quot;&gt;&lt;hier agent=&quot;@id:41de1GAQIBOmi1GZnhAptC;_Anav&quot;&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/dialog&gt;."><message type="Error" ts="1646146423709" appCtx="prl-chain-app" user="m2ddl14" thread="ForkJoinPool-1-worker-3" desc="La transformation 'transform=imageMagick&amp;command=convert%20%24src%2Brepage%20%24dst&amp;outType=' est impossible ou n'existe pas."><message type="Exception" ts="1646146423709" appCtx="prl-chain-app" user="m2ddl14" thread="ForkJoinPool-1-worker-3"><details>eu.scenari.commons.util.lang.ScException
+</details></message></message></l><l t="Warning" d="01/03/22 16:24:15"><message type="Warning" ts="1646148255525" appCtx="chain" thread="ForkJoinPool-1-worker-3" desc="Echec à la transformation de la ressource 'src=src:;&amp;transform=imageMagick&amp;outType=&amp;command=convert%20%24src%2Brepage%20%24dst' dans &lt;dialog cdAction=&quot;Exe&quot; param=&quot;null&quot; class=&quot;HDialogPages&quot;&gt;&lt;agent uri=&quot;@\Contenu\Ecran\texteàtrou.unit;_Anav/_Na&quot; class=&quot;HAgentPages&quot;&gt;&lt;agtType code=&quot;_Na&quot; xpathRoot=&quot;&quot; src=&quot;/~param/dokiel4-5/bs/dkGuide/genWeb/transf/content/screen/screen@nav.bs.xml&quot; class=&quot;HComposantTypePages&quot;/&gt;&lt;agtBag agtBagId=&quot;\Contenu\Ecran\texteàtrou.unit;&quot; /&gt;&lt;/agent&gt;&lt;hier agent=&quot;@\publication\publi_opale39.pub;_Aroot&quot;&gt;&lt;hier agent=&quot;@\opale39.scen;_Anav&quot;&gt;&lt;hier agent=&quot;@\exo_auto_evalue.scen;_Anav&quot;&gt;&lt;hier agent=&quot;@\Contenu\Ecran\texteàtrou.unit;_Anav&quot;&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/hier&gt;&lt;/dialog&gt;."><message type="Error" ts="1646148255524" appCtx="chain" thread="ForkJoinPool-1-worker-3" desc="La transformation 'transform=imageMagick&amp;command=convert%20%24src%2Brepage%20%24dst&amp;outType=' est impossible ou n'existe pas."><message type="Exception" ts="1646148255524" appCtx="chain" thread="ForkJoinPool-1-worker-3"><details>eu.scenari.commons.util.lang.ScException
 	at eu.scenari.commons.log.LogMgr.newException(LogMgr.java:388)
 	at com.scenari.m.ge.generator.web.WebGenerator.xCopySrcPath2DestUriNoDst(WebGenerator.java:612)
 	at com.scenari.m.ge.generator.web.WebGenerator.copyXxxPath2DestUri(WebGenerator.java:427)
@@ -268,16 +268,16 @@
 	at eu.scenari.xml.xalan.transformer.TransformerImpl.transformNode(TransformerImpl.java:737)
 	at com.scenari.m.ge.pages.TplXslPage.producePage(TplXslPage.java:220)
 	at com.scenari.m.ge.generator.base.GeneratorBase.producePage(GeneratorBase.java:1242)
-	at com.scenari.m.ge.generator.base.GeneratorStatic.wTreatStackPages(GeneratorStatic.java:967)
+	at com.scenari.m.ge.generator.base.GeneratorStatic.wTreatStackPages(GeneratorStatic.java:970)
 	at com.scenari.m.ge.generator.web.WebGenerator.xGenerate(WebGenerator.java:332)
 	at com.scenari.m.ge.generator.base.GeneratorStatic.generate(GeneratorStatic.java:645)
 	at eu.scenari.wsp.module.gen.ThreadGen.call(ThreadGen.java:170)
 	at eu.scenari.wsp.module.gen.ThreadGen.run(ThreadGen.java:157)
-	at eu.scenari.core.universe.Universe$1.run(Universe.java:454)
+	at eu.scenari.core.universe.Universe$1.run(Universe.java:455)
 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
-</details></message></message></message></l><end t="01/03/22 15:53:43"/></trace>
+</details></message></message></message></l><end t="01/03/22 16:24:15"/></trace>

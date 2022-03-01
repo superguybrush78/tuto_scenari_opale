@@ -342,7 +342,7 @@ dokielMgr.xIniPlayers = function() {
 				vPlayer.fOver.style.display = "none";
 				vPlayer.fSteps = scPaLib.findNodes(this.fPathSteps,vPlayer);
 				for(var k in vPlayer.fSteps) {
-					var vStep = vPlayer.fSteps[k];
+					if(!this.xIsVisible(vPlayer.fSteps[k])) vPlayer.fSteps.splice(k, 1);
 				}
 				vPlayer.className = vPlayer.className + " " + this.fClsPreSlp + "Fra";
 				vPlayer.fClass = vPlayer.className;
@@ -511,6 +511,11 @@ dokielMgr.xIsEltContainedByNode = function(pElt, pContainer) {
 		}
 	}
 	return(vFound);
+}
+
+/** dokielMgr.xIsVisible : Retourne 'true' par défaut : cette fonction peut être surchargée pas le contexte du générateur */
+dokielMgr.xIsVisible = function(pNode){
+	return true;
 }
 
 /** dokielMgr.xSwitchClass : Replace a CSS class. */
